@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g16"
+    tools:context=".Noun">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/noun"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="285dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="5.5dp"
+                    android:background="#e6ffff"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:text=" 1. Nouns: \n
+            - A noun is a person, an animal, a place or a thing : \n
+                a dog; a town; a phone; a melon \n
+                an orange; an egg; a beach\n
+            - In writing, names of people, places, days, months, etc. Begin with a capital letter :\n \n">
+
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="680dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="285dp"
+                    android:layout_height="620dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="5.5dp"
+                    android:background="#e6ffff"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:text=" 2. Singular and Plural nouns \n
+            - Most nouns can be singular(one) or plural(more than one) : \n
+                a pizzza- two pizzas; an apple-ten apples \n
+                an egg- some eggs; a melon-five melons\n\n
+            - For the plural form of most nouns, add (s) : \n
+                bottle-bottles; pen-pens \n
+                door-doors; car-cars \n
+            - For nouns that end in s, ss, ch, and x sounds, add(es) :\n
+                box-boxes; moss-mosses \n
+                bus-buses; potato-potatoes \n
+            - For nouns ending in for, fe, change f to v and add(es) :\n
+                wolf-wolves; wife-wives \n
+                leaf-leaves; life-lives \n
+            - For nouns that end in consonant (b,c,d,etc)+ y(ay, ey,oy), chane y to i and add(es or s) : \n
+                day- days;  baby-babies \n
+                toy-toys;   family-families \n \n
+             - The plural form of a few nouns is different, we call these irregular nouns : \n
+                man-men; woman-women; fish-fish \n
+                tooth-teeth; foot-feet; deer-deer \n
+                child-children; mouse-mice">
+
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
